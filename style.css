@@ -32,8 +32,8 @@ h1 {
     transition: all 1s ease-in-out;
     background-color: white;
     background-position: left;
-    transition: color 10s ease;
-    transition: background-position 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    /* transition: background-position 1s ease-in-out; */
 
 }
 
