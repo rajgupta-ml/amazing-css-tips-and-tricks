@@ -25,20 +25,22 @@ h1 {
 .cta {
     border: 1px solid black;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 2rem 8rem;
     font-size: 2rem;
 
     transition: all 1s ease-in-out;
-    background: linear-gradient(to right, #c22085 25%, #2d9687 0, #2d9687 50%, #e9b171 0, #e9b171 75%, #e2b8aa 0%);
-    background-size: 400%;
+    background-color: white;
     background-position: left;
+    transition: color 10s ease;
     transition: background-position 1s ease-in-out;
-
 
 }
 
 
 a:hover {
+    background: linear-gradient(to right, #c22085 25%, #2d9687 0, #2d9687 50%, #e9b171 0, #e9b171 75%, #e2b8aa 0%);
+    background-size: 400%;
     background-position: right;
+    color: white;
 }
