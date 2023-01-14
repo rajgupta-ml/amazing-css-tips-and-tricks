@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+h1 {
+    color: white;
+}
+
+.cta {
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    padding: 2rem 8rem;
+    font-size: 2rem;
+
+    transition: all 1s ease-in-out;
+    background: linear-gradient(to right, #c22085 25%, #2d9687 0, #2d9687 50%, #e9b171 0, #e9b171 75%, #e2b8aa 0%);
+    background-size: 400%;
+    background-position: left;
+    transition: background-position 1s ease-in-out;
+
+
+}
+
+
+a:hover {
+    background-position: right;
+}
